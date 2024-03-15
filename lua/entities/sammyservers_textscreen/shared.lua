@@ -9,5 +9,3 @@ ENT.RenderGroup = RENDERGROUP_TRANSLUCENT
 function ENT:SetupDataTables()
 	self:NetworkVar("Bool", 0, "IsPersisted")
 end
-
-hook.Add("CanTool", "3D2DTextScreensPreventTools", textScreenCanTool)
